@@ -1,15 +1,20 @@
 <section id="contact">
   <div class="container">
     <h1>Contact me</h1>
-    <form method="POST" action="http://formspree.io/slowmanchan@gmail.com">
+    <form method="POST" action="https://formspree.io/slowmanchan@gmail.com">
       <div class="row">
         <div class="six columns">
           <label for="emailinput">Your email</label>
-          <input class="u-full-width" type="email" placeholder="example@email.com" name="email" id="emailinput">
+          <input class="u-full-width" type="email" placeholder="example@email.com" name="_replyto" id="emailinput">
         </div>
         <div class="six columns">
           <label for="nameinput">Your full name</label>
           <input class="u-full-width" type="text" placeholder="Bob Loblaw" name="name" id="nameinput">
+        </div>
+        <div style="display:none">
+          <input type="hidden" name="_subject" value="New submission!">
+          <input type="hidden" name="_next" value="thanks.html">
+          <input type="text" name="_gotcha">
         </div>
       </div>
 
