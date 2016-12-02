@@ -1,0 +1,45 @@
+@media screen and (max-width: 690px) {
+  #navbar {
+    text-align: center;
+    margin: auto;
+    ul {
+      display: inline-block;
+
+    }
+
+  }
+  #about {
+    text-align: center;
+
+    img {
+      float: none;
+      margin: auto;
+    }
+  }
+  section {
+    text-align: center;
+  }
+  .main-footer {
+    width: 100%;
+
+    li{
+      padding: 5px;
+    }
+  }
+  #portfolio {
+    h1 {
+      padding-top: 20px;
+    }
+    img {
+      width: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 490px){
+  #portfolio {
+    img {
+      width: 100%;
+    }
+  }
+}
