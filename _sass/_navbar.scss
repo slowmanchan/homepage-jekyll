@@ -1,10 +1,29 @@
+#navbar {
+  z-index: 99;
+  text-transform: uppercase;
+  font-weight: bolder;
 
-.navbar {
-  padding: 120px 0;
   ul {
-    text-align: right;
     list-style: none;
-    font-weight: 800;
-    text-transform: uppercase;
+    margin: 0;
+    border-bottom: 1px solid hsl(0%, 0%, 80%);
   }
+  li {
+    display: inline-block;
+    padding-right: 20px;
+    padding: 20px 10px 20px 0;
+    margin: 0;
+  }
+}
+
+#spacer {
+  height: 65px;
+  display: none;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+
 }

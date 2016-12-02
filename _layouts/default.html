@@ -2,16 +2,12 @@
 <html lang="en">
 {% include head.html %}
 <body>
+
   <div class="row">
-    <div class="two columns">
-      {% include header.html %}
-    </div>
-    <div class="ten columns">
+    <div class="twelve columns">
       {{content}}
     </div>
   </div>
-  {% include footer.html %}
-
-
+  <script src="{{ site.url }}/javascript/main.js"></script>
 </body>
 </html>
