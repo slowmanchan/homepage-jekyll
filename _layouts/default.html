@@ -3,11 +3,9 @@
 {% include head.html %}
 <body>
 
-  <div class="row">
-    <div class="twelve columns">
-      {{content}}
-    </div>
-  </div>
-  <script src="{{ site.url }}/javascript/main.js"></script>
+  {{ content }}
+
+  {% include footer.html %}
+
 </body>
 </html>
