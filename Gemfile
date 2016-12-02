@@ -9,8 +9,12 @@ ruby '2.2.4'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.3.1"
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
+gem "jekyll", "3.3.1"
+gem 'github-pages', versions['github-pages']
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
