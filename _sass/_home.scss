@@ -1,0 +1,11 @@
+//home section
+.hero-panel {
+  text-align:  center;
+  padding: 100px 0;
+  @extend .blue-gradient;
+  color: white;
+
+  h1 {
+    text-transform: uppercase;
+  }
+}
