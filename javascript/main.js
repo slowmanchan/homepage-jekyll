@@ -5,7 +5,7 @@ var spacer = document.getElementById("spacer");
 window.addEventListener('scroll', function() {
   scrollPos = window.scrollY;
 
-  if(scrollPos > 340) {
+  if(scrollPos > 390) {
     header.classList.add("fixed");
     spacer.style.display = "block";
   } else {
