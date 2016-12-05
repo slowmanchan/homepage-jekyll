@@ -29,5 +29,17 @@
 }
 .blog-header {
   @extend #navbar;
+  border-bottom: 1px solid hsl(0%, 0%, 90%);
 
+  ul {
+    border: none;
+    display: inline-block;
+  }
+}
+
+#search-widget {
+  display: inline-block;
+  float: right;
+  margin: 0;
+  padding-top: 15px;
 }
