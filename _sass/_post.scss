@@ -1,5 +1,5 @@
 .post {
-  font-size: 1.5em;
+  font-size: 1.1em;
 
   padding-top: 50px;
 
@@ -10,4 +10,9 @@
 }
 .actions {
   list-style: none;
+}
+
+.date {
+  display: inline;
+  color: hsl(0%, 0%, 50%);
 }

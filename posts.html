@@ -6,11 +6,23 @@ layout: page
     {% for post in site.posts %}
     <li>
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <p>by: {{ post.author }}</p>
+      <p>
+        <div class="date">
+          {{ post.date | date: "%B %e, %Y" }}
+        </div>
+        {% for tag in post.tags %}
+        <div class="tags">
+          <a href="/archive/#{{ tag | slugify }}" ><i class="fa fa-tag"></i> {{ tag }}</a>
+        </div>
+        {% endfor %}
+        {% for category in post.categories %}
+        <div class="tags">
+          <a href="/archive/#{{ category | slugify }}" ><i class="fa fa-tag"></i> {{ category }}</a>
+        </div>
+        {% endfor %}
+      </p>
       {{ post.excerpt }}
-      <div class="date">
-        {{ post.date | date: "%B %e, %Y" }}
-      </div>
+
      </li>
      <hr>
     {% endfor %}

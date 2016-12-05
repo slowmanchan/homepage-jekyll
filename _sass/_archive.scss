@@ -1,0 +1,29 @@
+.archive {
+  padding-top: 50px;
+
+  ul {
+    list-style: none;
+  }
+  li {
+    font-size: 1.2em;
+  }
+  a {
+    text-decoration: none;
+
+  }
+  small {
+    color: hsl(0%, 0%, 50%);
+  }
+}
+
+.tags {
+  text-decoration: none;
+  background:  #1EAEDB;;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+  a {
+    color: white;
+  }
+}

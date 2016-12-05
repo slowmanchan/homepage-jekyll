@@ -3,6 +3,8 @@ layout: post
 title: "Majestic Markdown"
 date: 2016-12-02
 author: "Norman Chan"
+categories: Dev
+tags: [Markdown]
 ---
 
 Today I want to talk about this thing called Markdown.  You've probably used it on Stack overflow, Github, Jekyll or Reddit.  Its designed to be easy to read and its really easy to use.

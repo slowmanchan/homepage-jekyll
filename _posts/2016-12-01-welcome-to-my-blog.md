@@ -2,8 +2,9 @@
 layout: post
 title:  "Jekyll is tough"
 date:   2016-12-01 18:09:44 -0500
-categories: welcome
+categories: Dev
 author: "Norman Chan"
+tags: [Jekyll]
 ---
 
 Jekyll is easy right? if you found yourself struggling with this tech, youre not alone!
