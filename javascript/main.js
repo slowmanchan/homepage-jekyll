@@ -1,3 +1,12 @@
+var $root = $('html, body');
+$('.sscroll').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+
+
 var scrollPos = window.scrollY;
 var header = document.getElementById("navbar");
 var spacer = document.getElementById("spacer");
