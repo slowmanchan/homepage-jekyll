@@ -5,21 +5,21 @@
       <div class="row">
         <div class="six columns">
           <label for="emailinput">Your email</label>
-          <input class="u-full-width" type="email" placeholder="example@email.com" name="_replyto" id="emailinput">
+          <input class="u-full-width" type="email" placeholder="example@email.com" name="_replyto" id="emailinput" required>
         </div>
         <div class="six columns">
           <label for="nameinput">Your full name</label>
-          <input class="u-full-width" type="text" placeholder="Bob Loblaw" name="name" id="nameinput">
+          <input class="u-full-width" type="text" placeholder="Bob Loblaw" name="name" id="nameinput" required>
         </div>
         <div style="display:none">
           <input type="hidden" name="_subject" value="New submission!">
-      
+
           <input type="text" name="_gotcha">
         </div>
       </div>
 
       <label for="message">Message</label>
-      <textarea class="u-full-width" placeholder="Hi Norm, hows it going?" name="message" id="message"></textarea>
+      <textarea class="u-full-width" placeholder="Hi Norm, hows it going?" name="message" id="message" required></textarea>
       <input class="button-primary" type="submit" value="Send">
     </div>
   </section>
