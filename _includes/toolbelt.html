@@ -1,0 +1,12 @@
+<section>
+  <div class="toolbelt">
+    <h1>Toolbelt</h1>
+    <p>Below you'll find my toolbelt; languages, frameworks and other tech that I've learned on my coding journey.  Like the craftsman, I hone my tools everyday to keep my skills sharp.</p>
+    {% assign tools = "css3,html5,ruby,python,rails,javascript,jquery,postgresql,mysql,heroku,github,react,ubuntu,nodejs,atom,bootstrap,sass,gimp" | split: "," | sort: reverse %}
+    {% for tool in tools %}
+
+    <i class="devicon-{{tool}}-plain" id="icon"></i>
+
+    {% endfor %}
+  </div>
+</section>

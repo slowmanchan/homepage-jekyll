@@ -7,6 +7,7 @@ $('.sscroll').click(function() {
 });
 
 
+
 var scrollPos = window.scrollY;
 var header = document.getElementById("navbar");
 var spacer = document.getElementById("spacer");

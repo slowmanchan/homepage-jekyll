@@ -18,5 +18,18 @@
       transition: all 0.3s ease-in-out;
     }
   }
+}
+//toolbelt
+.toolbelt {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
 
+  p {
+    margin-bottom: 50px;
+  }
+  i {
+    font-size: 5em;
+    @extend .colored;
+  }
 }
