@@ -1,7 +1,10 @@
 section {
   padding: 100px 0;
   border-bottom: 1px solid hsl(0%, 0%, 80%);
-  
+  h1 {
+    text-transform: lowercase;
+    font-weight: bold;
+  }
   p {
     font-size: 1.2em;
   }
