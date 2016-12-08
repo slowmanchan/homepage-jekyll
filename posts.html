@@ -19,10 +19,10 @@ layout: page
         <div class="tags">
           <a href="/archive/#{{ category | slugify }}" ><i class="fa fa-tag"></i> {{ category }}</a>
         </div>
+        {{ post.excerpt }}
         {% endfor %}
       </p>
-      {{ post.excerpt }}
-
+      <a href="{{ post.url }}">Read More...</a>
      </li>
      <hr>
     {% endfor %}

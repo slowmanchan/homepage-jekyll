@@ -7,6 +7,7 @@ tags: [open-source]
 ---
 
 Taking notes is essential to generating great ideas.  Big ideas are built on the smallest of ideas.  Keeping a note pad is great but if you'r looking to go digital then their are a ton of options out there.  Evernote, Google keep and One note are just a few great choices.  If you like the idea of having as much open-source in your life as possible (like me) then check out Laverna.  
+<!--more-->
 
 #### Laverna
 

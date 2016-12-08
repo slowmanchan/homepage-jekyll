@@ -7,6 +7,7 @@ tags: [life]
 ---
 
 <span class="drop-cap">T</span>he night is old (ancient even) and I can't sleep yet again.  So what do I do? I read of course!  what better way to lull the mind to sleep then to read.  I've been reading [Pragmatic Thinking and Learning: Refactor Your Wetware By: Andy Hunt](https://www.amazon.ca/Pragmatic-Thinking-Learning-Refactor-Wetware/dp/1934356050).  Its filled with ideas on how to improve your learning capability and problem solving falculties.  It can be read by anyone but it is geared toward programmers.  It explores the two sides of the brain, commonly referred to as the left and right side of the brain.  The left side responsible for logic and reason and the right side responsible for spatial reasoning and creativity.  Hunt aptly sums this up as:
+<!--more-->
 
 >**the L-mode is like seeing the trees instead of the forest, the R-mode, the opposite.**
 

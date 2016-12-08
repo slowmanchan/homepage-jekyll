@@ -8,6 +8,7 @@ tags: [Markdown]
 ---
 
 Today I want to talk about this thing called Markdown.  You've probably used it on Stack overflow, Github, Jekyll or Reddit.  Its designed to be easy to read and its really easy to use.
+<!--more-->
 
 Basically, it converts your super plain text into HTML markup.  You type in:
 {% highlight jekyll %}

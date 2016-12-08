@@ -7,6 +7,7 @@ tags: [html]
 ---
 
 Ever wonder how sites like _github_ and _twitter_ have some of the best looking icons for everything?! Its because of the hard work from the people at *Font Awesome*.  They've created a whole library of high quality, scalable icons for almost everything you need an icon for and the best part is, they're absolutely *free*!  
+<!--more-->
 
 You can just grab the [CDN link](http://fontawesome.io/#modal-download) and paste it into your head! (your site head lol) or you can [download](http://fontawesome.io/get-started/) the files and include it in your site directory.  
 

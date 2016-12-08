@@ -4,6 +4,7 @@ email: slowmanchan@gmail.com
 description: >
   Full stack developer, portfolio, freelance, Ruby on Rails specialty, Toronto ON.
 baseurl: "" # the subpath of your site, e.g. /blog
+excerpt_separator: <!--more-->
 url: "https://slowmanchan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: slowmanchan
 github_username:  slowmanchan

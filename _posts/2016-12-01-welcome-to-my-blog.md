@@ -15,6 +15,7 @@ Heres what people say:
 * Its mostly just static pages
 * A template for a personal blog is made automagically with: {% highlight ruby %}jekyll new myblog{% endhighlight %}
 * Its got some ruby mixed in there
+<!--more-->
 
 Now I'm not a complete newbie when it comes to coding.  I have made full working sites with ruby on rails and react but I found myself challenged more so then my expectation of the challenge.
 
