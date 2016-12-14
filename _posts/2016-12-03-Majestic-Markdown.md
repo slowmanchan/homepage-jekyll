@@ -21,7 +21,7 @@ turns into this HTML:
 
 > # Heading
 
-Easy right? So you can have fancy headers, **bold** and organized lists and [highlighted links]()!
+Easy right? So you can have fancy headers, **bold** and organized lists and [highlighted links](http://www.example.com)!
 
 You _can't_ do colours or change font types but its really meant just for the display of text.
 
