@@ -16,7 +16,7 @@ gems:
   - jekyll-feed
 
 include: ['_pages']
-exclude:
+exclude: [vendor]
   - Gemfile
   - Gemfile.lock
 
