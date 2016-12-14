@@ -15,10 +15,10 @@ gems:
   - jekyll-feed
 
 include: ['_pages']
-exclude: [vendor]
+exclude:
   - Gemfile
   - Gemfile.lock
-
+  - vendor
 #sass
 sass:
   style: compressed
