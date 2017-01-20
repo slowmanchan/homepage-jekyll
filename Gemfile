@@ -1,5 +1,4 @@
-source "https://rubygems.org"
-ruby '2.2.4'
+source 'https://rubygems.org'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -13,17 +12,17 @@ require 'json'
 require 'open-uri'
 versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-gem "jekyll", "3.3.1"
+gem 'jekyll', '3.3.1'
 gem 'github-pages', versions['github-pages']
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+gem 'minima', '~> 2.0'
 
-gem "html-proofer"
+gem 'html-proofer'
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
+  gem 'jekyll-feed', '~> 0.6'
 end
