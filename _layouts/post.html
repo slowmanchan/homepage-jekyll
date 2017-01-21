@@ -9,16 +9,16 @@ layout: default
   <div id="spacer">
   </div>
 
-  <article class="post">
+  <article id="markdown-body" class="post post-content markdown-body">
     <h1>{{ page.title}}</h1>
     <div class="entry">
-      {{ content }}
+      {{ content | remove_first: '&lt;!--more--&gt;'}}
     </div>
 
     <div class="date">
       {{ page.date | date: "%B %e, %Y" }}
     </div>
-   
+
     <div class="comments">
       <!-- disqus -->
     </div>
