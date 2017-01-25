@@ -1,12 +1,17 @@
 <header class="blog-header">
-  <ul>
-    <a href="{{site.url}}/posts"><li>Home</li></a>
-    <a href="/"><li>Personal Page</li></a>
-    <a href="/archive"><li>Archive</li></a>
-  </ul>
-  <form id="search-widget" action="/search.html" method="get">
-    <input type="text" id="search-box" name="query" placeholder="Find yourself..." required></input>
-    <input type="submit" value="search" id="search-button"></input>
-  </form>
-
+  <div class="banner">
+    <h1>&lt;code corner /&gt;</h1>
+    <p>{ for the joy of coding }</p>
+  </div>
+  <div class="container">
+    <ul>
+      <a href="{{site.url}}/posts"><li>Home</li></a>
+      <a href="/"><li>Personal Page</li></a>
+      <a href="/archive"><li>Archive</li></a>
+    </ul>
+    <form id="search-widget" action="/search.html" method="get">
+      <input type="text" id="search-box" name="query" placeholder="I want to find..." required></input>
+      <input type="submit" value="search" id="search-button"></input>
+    </form>
+  </div>
 </header>
