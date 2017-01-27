@@ -8,6 +8,8 @@ tags: [puzzles]
 
 Today's puzzle is pretty simple.  It is a Rank 6 kata and I believe the difficulty to be closer to a rank 7 or 8.
 
+<!--more-->
+
 ## Secret Codes
 [LINK](https://www.codewars.com/kata/5842df8ccbd22792a4000245)
 
