@@ -32,6 +32,13 @@
       width: 200px;
     }
   }
+
+  #professional {
+    img {
+      width: 300px;
+    }
+  }
+
 }
 
 @media screen and (max-width: 490px){
@@ -40,9 +47,25 @@
       width: 100%;
     }
   }
+  #professional {
+    img {
+      width: 100%;
+    }
+  }
+  #navbar {
+    a {
+      font-size: 0;
+    }
+
+    a i {
+      font-size: 20px;
+    }
+  }
+
 
 }
 @media screen and (min-width: 700px){
+
   .post {
     width: 70%;
     margin: auto;
